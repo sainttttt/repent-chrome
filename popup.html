@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <h1 id="cat">REPENT 2</h1>
+    <div>
+      <input
+        aria-hidden="true"
+        id="redir-yt-home"
+        type="checkbox"
+        checked
+      />
+      <label for="redir-yt-home"
+             class="checkbox-label">
+             NATIVE YOUTUBE HOME
+      </label>
+    </div>
+
+    <div>
+      <label for="yt-redirect-url" >
+             YT URL
+      </label>
+
+      <input
+        aria-hidden="true"
+        id="yt-redirect-url"
+        type="text"
+      />
+    </div>
+
+    <script src="./popup.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "Repent",
+  "version": "0.1",
+  "manifest_version": 3,
+  "description": "Redirect Youtube URLs to alternate frontend",
+  "background": {
+    "service_worker": "service_worker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "declarativeNetRequestWithHostAccess",
+    "storage"
+  ],
+  "host_permissions": ["https://*.youtube.com/"]
+}
